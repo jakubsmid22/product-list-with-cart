@@ -64,8 +64,8 @@ const Cart = () => {
             </div>
             <div className="flex flex-col items-center gap-5">
               <div className="flex w-full items-center justify-center gap-2 rounded-lg bg-rose-50 py-4">
-                <img src={carbonImg} alt="carbon-img" className="w-8" />
-                <p>
+                <img src={carbonImg} alt="carbon-img" className="w-8 lg:hidden 2xl:block" />
+                <p className="text-center">
                   This is a <strong>carbon-neutral delivery</strong>
                 </p>
               </div>
